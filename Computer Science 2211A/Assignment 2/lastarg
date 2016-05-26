@@ -1,0 +1,25 @@
+#!/bin/sh
+# lastarg
+# This script takes 0 or more arguments and prints the last (rightmost)
+# argument in the argument list or if there are no arguments returns nothing
+# Jameel Kaba / jkaba / 250796017
+
+# If there is an argument that is not empty
+if [ ! -z "$*" ]
+
+# Then loop through all arguments assigning each one to a value i
+then for i in $* 
+
+# Do nothing for each argument
+do :   
+
+# Finish the for loop
+done	
+
+# Echo the current argument i which is the last argument
+echo "$i" 
+
+# Else if the argument is empty or there is no argument
+# Do nothing
+else :
+fi
