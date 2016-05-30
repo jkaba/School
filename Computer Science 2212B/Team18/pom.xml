@@ -1,0 +1,77 @@
+<project>
+    <modelVersion> 4.0.0 </modelVersion>
+    <groupId> ca.uwo.csd.cs2212.team18 </groupId>
+    <artifactId> team18 </artifactId>
+    <packaging> jar </packaging>
+    <version> 1.0-SNAPSHOT </version>
+    
+    <repositories>
+        <repository>
+            <id>cs2212</id>
+            <name>CS2212 Course Repo</name>
+            <url>http://www.csd.uwo.ca/~mlocke2/</url>
+        </repository>
+    </repositories>
+    
+    
+    
+    <dependencies>
+        <dependency>
+            <groupId>ca.uwo.csd.cs2212</groupId>
+            <artifactId>scribejava-apis</artifactId>
+            <version>2.2.2-CS2212</version>
+        </dependency>
+        <dependency>
+            <groupId>ca.uwo.csd.cs2212</groupId>
+            <artifactId>scribejava-core</artifactId>
+            <version>2.2.2-CS2212</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20090211</version>
+        </dependency>
+    </dependencies>
+    
+    
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId> org.apache.maven.plugins </groupId>
+                <artifactId> maven-jar-plugin </artifactId>
+                <version> 2.4 </version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>ca.uwo.csd.cs2212.team18.FitbitApp</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <mainClass>ca.uwo.csd.cs2212.team18.FitbitApp</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
