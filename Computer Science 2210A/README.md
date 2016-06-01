@@ -13,8 +13,8 @@ Topics covered in this course include:
 - sorting
 
 ## Assignments
-Assignment 1 - Theory based questions (written, no code)
-Assignment 2 - Implements Hash Tables and Compression to create a dictionary
-Assignment 3 - Theory based questions (written, no code)
-Assignment 4 - Implements Binary Trees to create a simple game of Pac-Man
-Assignment 5 - Implements Graphs, and Graph Traversals to solve a bus route problem
+- Assignment 1 - Theory based questions (written, no code)
+- Assignment 2 - Implements Hash Tables and Compression to create a dictionary
+- Assignment 3 - Theory based questions (written, no code)
+- Assignment 4 - Implements Binary Trees to create a simple game of Pac-Man
+- Assignment 5 - Implements Graphs, and Graph Traversals to solve a bus route problem
