@@ -1,0 +1,13 @@
+cat01 17 06 2012 Pets Where's_my_glass_cutter! cat_squirrel.jpg
+dog01 31 07 2012 Pets Cool!__Now_someone_rub_my_tummy cooldog.jpg
+cruise01 5 5 2012 Vacation This_was_an_exciting_day_on_my_cruise cruise01.jpg
+dog02 28 05 2012 Pets Am_I_cool_or_what? dog_sunglasses.jpg
+dog03 13 04 2012 Pets He_finally_found_a_way_to_clean_dishes dog-dishwasher.jpg
+cat02 4 5 2011 Pets How_embarrassing granny_cat.jpg
+vac01 6 6 2011 Vacation Grilling_at_the_cottage grill.jpg
+vac02 3 4 2011 Vacation What_a_ride! limo.jpg
+vac03 14 6 2011 Vacation An_unexpected_guest_for_lunch lunch.jpg
+vac04 11 6 2012 Vacation A_surprise_ending! roller_coaster.jpg
+cat03 12 4 2012 Pets Prepared_to_get_his_own_fish scuba-cat.jpg
+cruise02 7 5 2012 Vacation What_was_the_name_of_this_ship? titanic.jpg
+fish01 24 6 2012 Pets Walking_the_fish_too! walking-fish.jpg

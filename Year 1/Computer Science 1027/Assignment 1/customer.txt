@@ -1,0 +1,30 @@
+John Smith 001456792  
+Canadian-Business     print
+Mens-Health           digital
+Money-Sense           digital 
+
+Joan Smith 001456793
+Chatelaine            print
+Sou-Sou               digital  
+Womens-Health         digital 
+Style-at-Home         print 
+
+Mostafa Alazawii  0092929292
+Popular-Science       print 
+Chatelaine            digital
+Todays-Parent         print   
+
+Lei Wong 0092929293
+Popular-Science       digital
+Canadian-Graphraphic  digital 
+Macleans              print   
+
+Susie Wong 0092929294
+Popular-Science       print
+Canadian-Graphraphic  print
+Macleans              digital
+Womens-Health         digital
+
+Maedeh Alazawii 0092929291
+Macleans              digital
+
