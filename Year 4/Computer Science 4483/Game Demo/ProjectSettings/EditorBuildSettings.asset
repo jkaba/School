@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: fe3049f4cab13419cad4e950e0c27f72
+  - enabled: 1
+    path: Assets/Scenes/Survival.unity
+    guid: 8ed0a079964d3411ca5c1d2ba16d3ab9
+  - enabled: 1
+    path: Assets/Scenes/StoryMenu.unity
+    guid: 484e6ba064a834981ad9ecea517a3445
+  - enabled: 1
+    path: Assets/Scenes/SurvivalMenu.unity
+    guid: 457053bbca65443238e78b33d8e50d65
+  - enabled: 1
+    path: Assets/Scenes/Story.unity
+    guid: 6c8ce651d91914d899e8e8b6d45154d4
+  - enabled: 1
+    path: Assets/Scenes/Dialogue.unity
+    guid: c001e86e75d004b15b8d6d72976e3262

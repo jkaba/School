@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function alertDate()
+            {
+                var d = new Date();
+                document.getElementById("date").innerHTML = d;
+            }
+        
+            var flagTimer ='resume';
+            function changeValue()
+            {
+                if (flagTimer == 'resume')
+                {
+                    value = value + 10;
+                    document.getElementById("demo").innerHTML = value + " Seconds";
+                }
+            }
+        
+            var timerInterval = null;
+            function start ()
+            {
+                value = 0;
+                timerInterval = setInterval(changeValue, 10000);
+            }
+        
+            function reset()
+            {
+                value = 0;
+                document.getElementById("demo").innerHTML = value + " Seconds";
+            }
+        
+            function pause() {
+                if( flagTimer=='resume')
+                {
+                    clearTimeout(0);
+                    document.getElementById('Pause').value="Resume";
+                    flagTimer='pause';
+                }
+                else
+                {
+                    flagTimer='resume';
+                    document.getElementById('Pause').value="Pause";
+                }
+            }
+            </script>
+        <style>
+        div.container
+        {
+            width: 100%;
+            border: 1px solid gray;
+        }
+        
+        header, footer
+        {
+            padding: 1em;
+            color: black;
+            border: 1px solid gray;
+            background-color: white;
+            clear: left;
+            text-align: center;
+        }
+        
+        nav
+        {
+            float: left;
+            max-width: 160px;
+            margin: 0;
+            padding: 1em;
+        }
+        
+        article
+        {
+            margin-left: 170px;
+            border-left: 1px solid gray;
+            padding: 1em;
+            overflow: hidden;
+        }
+        </style>
+    </head>
+    
+    <body onload="alertDate(); start();">
+        
+        <div class="container">
+            
+            <header>
+                j001 Jameel Kaba jkaba 250796017
+            </header>
+            
+            <nav>
+                <form>
+                    <input type="button" value="Click for date" onclick="alertDate(); return false;"/>
+                </form>
+            </nav>
+            
+            <article>
+                <p id="date"></p>
+            </article>
+            
+            <footer>
+                Time since page loaded: 
+                <p id="demo">0 Seconds</p>
+                <input type="button" value="Reset Timer" onclick="reset();"/>
+                <input type="button" id="Pause" value="Pause" onclick="pause(); "/>
+            </footer>
+            
+        </div>
+    </body>
+</html>

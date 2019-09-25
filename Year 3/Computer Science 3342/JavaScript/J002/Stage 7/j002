@@ -1,0 +1,62 @@
+The task j002 is aimed at seeing how one can work with JSON data in JavaScript.
+
+The problem that I am interested in addressing is creating a browser-based 
+interface to the final exam database.  The data to process is normally kept
+in the git repository in webber/material4final/examdatabase.json .  Since this
+will be changing during the semester, I have made a copy of the first version
+of it in the file examdatabase.js in this directory for use with initial
+practice of this task.  In changing from the json suffix to the js suffix, 
+I have also added a bit of JavaScript to assign the json to a global variable
+named examdatabase.  Thus your local html file can load it just like any other
+local javascript file you might load (and loading it executes the JavaScript
+code that pulls the database into your browser space).
+
+There is a very short tutorial that shows you how to use JSON data in
+JavaScript http://iviewsource.com/codingtutorials/getting-started-with-javascript-object-notation-json-for-absolute-beginners/
+It shifts to jQuery only at the very end where it talks about reading JSON
+data from an external file.  Reading from an external file that is local is
+different from reading from an external file accessed through a web server
+as discussed in http://stackoverflow.com/questions/7346563/loading-local-json-file .
+Here, we are interested in accessing it without a web server, which is why
+the .js route was taken.
+
+
+Stage 1: Set up an html page j002.html that includes examdatabase.js and 
+your j002.js file.  j002.js should cause the description field of the
+examdatabase object to appear on browser screen by inserting it into the DOM
+at an appropriate place.
+
+Stage 2: Add two buttons to the page.  These buttons are associated with
+some text space.  The text space is labelled question: and answer: and
+initially empty.  When the question button is pushed, the first question from
+the examdatabase is displayed (and if there was an answer left over from a
+previous push of this button, that answer is removed from the screen).
+When the answer button is pushed, the answer field for that question is
+displayed.
+
+Stage 3: Instead of displaying the first question, when the question button
+is pushed, you would like to display a random question.  As with most 
+programming languages, there is a random number generator in the standard
+library, e.g., see:
+ http://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range
+To get this to work, you are also going to have to figure out how long the 
+array of questions is (note there is a null at the end of the array).
+
+Stage 4: If you look in the examdatabase.js file, you will see one of the
+questions has two answers.  You want to make sure that if all the answers
+are displayed in that case as well (at some future time we might also want
+to support more than two answers for a question).
+
+Stage 5: Add to the page buttons that you press to indicate whether or not
+you got that question right.
+
+Stage 6: Update the question button so that it won't give you a new question
+til you indicate whether or not the answer to the current question was right
+(it should print a message to the user so they know what they need to do).
+
+Stage 7: Add to the html a display showing how many questions you have got
+right and how many you have got wrong.
+
+If you use this task and notice that there are ways to make it easier or more
+useful to use, let me know and extra tasks may be generated from this feedback.
+

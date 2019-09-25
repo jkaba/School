@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8bbd5d15e39394e05b7ccf815ad8efc2
+timeCreated: 1513126612
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Brixs
+  fontNames:
+  - Brixs
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

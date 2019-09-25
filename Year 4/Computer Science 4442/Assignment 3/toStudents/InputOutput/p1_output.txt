@@ -1,0 +1,12 @@
+INPUT:
+
+p1 p1_text.txt 4
+
+
+OUTPUT:
+
+and, 4
+all, 2
+the, 2
+their, 2
+33.3333%

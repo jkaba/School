@@ -18,7 +18,6 @@ Code that I have written for assignments I have completed during my time at West
 ## Year 3
 - Computer Science 3305: Operating Systems
 - Computer Science 3307: Object-Oriented Design and Analysis
-- Computer Science 3331: Foundations of Computer Science 1
 - Computer Science 3340: Analysis of Algorithms 1
 - Computer Science 3342: Organization of Programming Languages
 - Computer Science 3346: Artificial Intelligence 1
@@ -29,7 +28,6 @@ Code that I have written for assignments I have completed during my time at West
 ## Year 4
 - Computer Science 4442: Artificial Intelligence 2
 - Computer Science 4457: Computer Networks 2
-- Computer Science 4472: Specification Testing and Quality Assurance
 - Computer Science 4474: Human-Computer Interaction
 - Computer Science 4480: Game Development Project
 - Computer Science 4481: Image Compression

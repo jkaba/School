@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>Scorpius</Name>
+    <Version>1.0.0</Version>
+    <Title>Scorpius Installer</Title>
+    <Publisher>CS3307 Team Scorpius</Publisher>
+    <StartMenuDir>Super App</StartMenuDir>
+    <TargetDir>@HomeDir@/Scorpius</TargetDir>
+</Installer>

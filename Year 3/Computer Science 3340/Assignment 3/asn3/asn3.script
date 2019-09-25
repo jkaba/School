@@ -1,0 +1,57 @@
+Script started on Mon Mar 27 19:21:47 2017
+obelix.gaul.csd.uwo.ca[11]% who am i
+jkaba      /dev/pts/30  Mar 27 19:21
+obelix.gaul.csd.uwo.ca[12]% asn3.sh < mst_graph1
+
+NOTE IF THIS PROGRAM, DOES NOT RUN. EXIT AND ENTER THE FOLLOWING
+asn3.sh < file
+This is how it was specified to run in the assignment description
+
+Adjacency List Representation
+Note: x(y) where x = end point and y = weight
+Adjacent to 1: 2 (12), 3 (10), 6 (3), 
+Adjacent to 2: 1 (12), 4 (20), 5 (20), 7 (6), 
+Adjacent to 3: 1 (10), 6 (30), 7 (28), 8 (9), 
+Adjacent to 4: 2 (20), 8 (40), 9 (36), 
+Adjacent to 5: 2 (20), 10 (50), 11 (44), 
+Adjacent to 6: 3 (30), 12 (60), 13 (52), 1 (3), 11 (18), 
+Adjacent to 7: 3 (28), 14 (70), 15 (50), 2 (6), 12 (21), 
+Adjacent to 8: 4 (40), 16 (80), 17 (68), 3 (9), 13 (24), 
+Adjacent to 9: 4 (36), 18 (95), 19 (76), 14 (27), 
+Adjacent to 10: 5 (50), 20 (100), 15 (30), 
+Adjacent to 11: 5 (44), 12 (5), 6 (18), 16 (33), 
+Adjacent to 12: 6 (60), 11 (5), 7 (21), 
+Adjacent to 13: 6 (52), 14 (5), 8 (24), 
+Adjacent to 14: 7 (70), 13 (5), 9 (27), 
+Adjacent to 15: 7 (50), 10 (30), 
+Adjacent to 16: 8 (80), 11 (33), 
+Adjacent to 17: 8 (68), 18 (5), 
+Adjacent to 18: 9 (95), 17 (5), 
+Adjacent to 19: 9 (76), 20 (5), 
+Adjacent to 20: 10 (100), 19 (5), 
+
+Order added to MST by Prim's Algorithm:
+Added: 1        Root Node       Weight: 0
+Added: 6        Parent: 1       Weight: 3
+Added: 3        Parent: 1       Weight: 10
+Added: 8        Parent: 3       Weight: 9
+Added: 2        Parent: 1       Weight: 12
+Added: 7        Parent: 2       Weight: 6
+Added: 11       Parent: 6       Weight: 18
+Added: 12       Parent: 11      Weight: 5
+Added: 5        Parent: 2       Weight: 20
+Added: 4        Parent: 2       Weight: 20
+Added: 13       Parent: 8       Weight: 24
+Added: 14       Parent: 13      Weight: 5
+Added: 9        Parent: 14      Weight: 27
+Added: 16       Parent: 11      Weight: 33
+Added: 10       Parent: 5       Weight: 50
+Added: 15       Parent: 10      Weight: 30
+Added: 17       Parent: 8       Weight: 68
+Added: 18       Parent: 17      Weight: 5
+Added: 19       Parent: 9       Weight: 76
+Added: 20       Parent: 19      Weight: 5
+obelix.gaul.csd.uwo.ca[13]% exit
+obelix.gaul.csd.uwo.ca[14]% exit
+
+script done on Mon Mar 27 19:22:39 2017

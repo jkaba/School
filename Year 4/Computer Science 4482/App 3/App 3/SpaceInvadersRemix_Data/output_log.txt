@@ -1,0 +1,43 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4061 MB
+    Driver:   21.21.13.7654
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\jamee\Desktop\Games\School\Computer Science 4482\Assignments\App\App 3\SpaceInvadersRemix_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\jamee\Desktop\Games\School\Computer Science 4482\Assignments\App\App 3\SpaceInvadersRemix_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\jamee\Desktop\Games\School\Computer Science 4482\Assignments\App\App 3\SpaceInvadersRemix_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\jamee\Desktop\Games\School\Computer Science 4482\Assignments\App\App 3\SpaceInvadersRemix_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\jamee\Desktop\Games\School\Computer Science 4482\Assignments\App\App 3\SpaceInvadersRemix_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\jamee\Desktop\Games\School\Computer Science 4482\Assignments\App\App 3\SpaceInvadersRemix_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\jamee\Desktop\Games\School\Computer Science 4482\Assignments\App\App 3\SpaceInvadersRemix_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\jamee\Desktop\Games\School\Computer Science 4482\Assignments\App\App 3\SpaceInvadersRemix_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\jamee\Desktop\Games\School\Computer Science 4482\Assignments\App\App 3\SpaceInvadersRemix_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\jamee\Desktop\Games\School\Computer Science 4482\Assignments\App\App 3\SpaceInvadersRemix_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\jamee\Desktop\Games\School\Computer Science 4482\Assignments\App\App 3\SpaceInvadersRemix_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\jamee\Desktop\Games\School\Computer Science 4482\Assignments\App\App 3\SpaceInvadersRemix_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.169 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.470955 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 3894 -> priority: 1 
+  Thread -> id: 2a94 -> priority: 1 
+  Thread -> id: 580 -> priority: 1 
+  Thread -> id: 3714 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.712503 ms
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 518.
+Total: 3.619013 ms (FindLiveObjects: 0.030997 ms CreateObjectMapping: 0.011304 ms MarkObjects: 0.211510 ms  DeleteObjects: 3.364836 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.762530 ms
+
+Unloading 90 unused Assets to reduce memory usage. Loaded Objects now: 558.
+Total: 2.946191 ms (FindLiveObjects: 0.032820 ms CreateObjectMapping: 0.014951 ms MarkObjects: 0.276422 ms  DeleteObjects: 2.620903 ms)
+

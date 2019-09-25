@@ -1,0 +1,21 @@
+q 1 pr 2 fcfs p1 10 p2 5 p3 7 p4 20 p5 17 p6 9 p7 3 p8 11 p9 15 p10 1
+q 2 pr 3 rr tq 5 p1 10 p2 5 p3 7 p4 20 p5 17 p6 9 p7 3 p8 11 p9 15 p10 1
+q 3 pr 1 sjf p1 10 p2 5 p3 7 p4 20 p5 17 p6 9 p7 3 p8 11 p9 15 p10 1
+
+Symbols used in the above input file:
+-------------------------------------
+q: Ready queue
+pr: priority level, 1 lowest, 3 highest
+fcfs: first come first serve
+sjf: shortest job first
+rr: round robin
+tq: time quantum
+
+Example:
+-------------------------------------
+
+q 1 pr 2 fcfs p1 10 p2 5 p3 7 p4 20 p5 17 p6 9 p7 3 p8 11 p9 15 p10 1
+
+Ready Queue q1 has a priority level of 2. FCFS scheduling algorithm will be used for q1. Ready Queue q1 has a total of ten processes namely 
+p1, p2, p3,p4, p5, p6, p7, p8, p9, and p10. The sequence of these processes represent their arrival order. for example, p1 arrives at the first and p10
+arrives at the last in this list of processes. In "px y" format y refers to the CPU burst time for px.

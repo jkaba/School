@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logo.png</file>
+        <file>icon32.ico</file>
+        <file>print_button.png</file>
+        <file>printer.png</file>
+        <file>Pdf.svg</file>
+    </qresource>
+</RCC>

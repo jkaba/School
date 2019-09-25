@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a96b69fa29707471998cd72abcee636f
+timeCreated: 1513126626
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: ChockABlockNF
+  fontNames:
+  - ChockABlockNF
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

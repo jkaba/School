@@ -1,0 +1,33 @@
+INPUT:
+
+p5 p4_textModel.txt p4_sentence_a.txt 3 3
+
+OUTPUT:
+
+ -9.72953
+
+///////////////////////////////////////
+
+
+INPUT:
+
+p5 p4_textModel.txt p4_sentence_b.txt 3 3
+
+OUTPUT:
+
+-9.62417
+
+///////////////////////////////////////
+
+p5 p4_textModel.txt p4_sentence_a.txt 2 2
+OUTPUT:
+
+-7.04752
+
+///////////////////////////////////////
+
+p4 p4_textModel.txt p4_sentence_b.txt 2 2
+
+OUTPUT:
+
+ -7.45298

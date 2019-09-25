@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 51b5d0571ed9d48acb0b2be31890a1ea
+timeCreated: 1513126662
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Tinsnips
+  fontNames:
+  - Tinsnips
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

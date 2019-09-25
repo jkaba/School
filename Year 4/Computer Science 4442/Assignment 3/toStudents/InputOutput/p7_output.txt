@@ -1,0 +1,15 @@
+p6 hugeTrain.txt textCheck.txt dictionary.txt 2 2 0.01 0
+
+i would love to hear the story
+you will read in the garden
+hello from the top of the world
+i will drink milk in the morning
+i will read the story
+
+p6 hugeTrain.txt textCheck.txt dictionary.txt 2 2 0.01 1
+
+ i would love to hear the story
+ you will read in the garden
+ hello from the top of the world
+ i will dink mlk in the morning
+ i will read the story

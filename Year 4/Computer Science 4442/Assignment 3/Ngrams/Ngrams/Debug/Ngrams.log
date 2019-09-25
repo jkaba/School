@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\home\courses\winter2018\ngrams\ngrams\test.cpp(61): warning C4018: '<=': signed/unsigned mismatch
+d:\home\courses\winter2018\ngrams\ngrams\test.cpp(112): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Ngrams.vcxproj -> D:\Home\Courses\Winter2018\Ngrams\Debug\Ngrams.exe

@@ -1,0 +1,28 @@
+
+//////////////////////////////////////////////////////////
+
+INPUT:
+
+p3 drseuss.txt 1 
+
+OUTPUT:
+
+there the going was came started moon get <END>
+
+//////////////////////////////////////////////////////
+
+INPUT:
+
+p3 drseuss.txt 2 
+
+OUTPUT:
+
+what s highest turtle named them bodkin van horn <END>
+
+//////////////////////////////////////////////////////
+
+INPUT:
+
+p3 drseuss.txt 3 
+
+that i learned as a boy back in south going zax <END>

@@ -1,0 +1,88 @@
+commit c56c86ec2856326d8545eab416d5d28e08d7fa25
+Author: Jameel Kaba <jkaba@uwo.ca>
+Date:   Thu Feb 2 23:07:13 2017 -0500
+
+    time h001 60 in progress.
+    Completed Stage 1 using a different method
+
+commit a933f58a812479075fb7e822ce542470a70c7864
+Author: Jameel Kaba <jkaba@uwo.ca>
+Date:   Fri Jan 27 23:07:09 2017 -0500
+
+    time r001 50 in progress.
+    Completed Stage 4 took longer than expected
+
+commit dc010f4d2bd8167e33bfc10482b21b5b0088ad32
+Author: Jameel Kaba <jkaba@uwo.ca>
+Date:   Fri Jan 27 19:22:45 2017 -0500
+
+    time r001 45 in progress.
+    Completed Stage 1
+
+commit 1e6fbac4a3e3a612aa0fba4754460c9b811c905a
+Author: Jameel Kaba <jkaba@uwo.ca>
+Date:   Thu Jan 19 12:01:20 2017 -0500
+
+    time j001 30 in progress .
+    Completed stage 6.
+
+commit 78c083652fdf69e9f9f3aeb4938805c92a3017e8
+Author: Jameel Kaba <jkaba@uwo.ca>
+Date:   Wed Jan 18 19:20:40 2017 -0500
+
+    time j001 20 in progress .
+    Completed stage 1.
+
+commit 07a959a6f0b2f4ae52b2302739c6822f64fbbd26
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 18 18:02:56 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 30d34fd93f91c5227af6fb795abd93f897cba2a9
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 18 12:54:48 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit cc5e48f8602c9771f0341c520cb7414aa674a71f
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Tue Jan 17 21:11:31 2017 -0500
+
+    updating practice framework
+
+commit 3c80873b3172232e75b5814cef860107451aa2dc
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Jan 16 17:54:10 2017 -0500
+
+    updating practice framework
+
+commit 591f90668db227370696c05b215c06c7e05fd7bb
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 14 19:49:44 2017 -0500
+
+    updating practice framework
+
+commit 491340009f2dc39963b4bc5c236fc51bf1d38c69
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 14 19:13:34 2017 -0500
+
+    updating practice framework
+
+commit c86e4442cf812eef67bef93f26be23caf7d0971b
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Fri Jan 13 16:24:29 2017 -0500
+
+    updating practice framework
+
+commit e2312bb5193e2e1ae230f38ffb360a9315732cfe
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 11 22:50:08 2017 -0500
+
+    updating practice framework
+
+commit 2be3542420b9aef5978e7b91aada829a515c65c6
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Tue Jan 10 18:36:56 2017 -0500
+
+    updating practice framework

@@ -1,0 +1,1 @@
+document.getElementByID("description").innerHTML = examdatabase.description;

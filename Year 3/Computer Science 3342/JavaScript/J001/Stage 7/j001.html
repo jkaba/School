@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function alertDate()
+            {
+                var d = new Date();
+                document.getElementById("date").innerHTML = d;
+            }
+        
+        var flag ='continue';
+        var flagTimer ='resume';
+        function changeValue()
+        {
+            if(flag == 'stop')
+            {
+                second2 = second2 + 10;
+                if(second2 > 50)
+                {
+                    second2 = 0;
+                    minute2 = minute2 + 1;
+                }
+                
+                if(minute2 > 15)
+                {
+                    second = second + second2;
+                    minute = minute + minute2
+                    second2 = 0;
+                    minute2 = 0;
+                    pause();
+                }
+                document.getElementById("search").innerHTML = "Time spent searching: " + minute2 + " minute(s) " + second2 + " seconds ";
+            }
+            
+            if (flagTimer == 'resume')
+            {
+                second = second + second2;
+                minute = minute + minute2;
+                second2 = 0;
+                minute2 = 0;
+                document.getElementById("search").innerHTML = "Time spent searching: " + minute2 + " minute(s) " + second2 + " seconds ";
+                
+                second = second + 10;
+                if(second > 50){
+                    second = 0;
+                    minute = minute + 1;
+                }
+                if(minute > 59)
+                {
+                    minute = 0;
+                    hour = hour + 1;
+                }
+                if(hour >= 1)
+                {
+                    pause();
+                    document.getElementById('Pause').style.visibility="hidden";
+                    document.getElementById("message").innerHTML = "1 Hour has passed, it is time for a commit message in your practice log.";
+                    document.getElementById("messagetwo").innerHTML = "The timer has stopped, please reset it";
+                }
+                document.getElementById("time").innerHTML ="Time since page loaded: " + hour + " Hour(s) " + minute + " Minute(s) " + second + " Seconds";
+            }
+        }
+        
+        var timerInterval = null;
+        function start ()
+        {
+            hour = 0;
+            minute = 0;
+            second = 0;
+            second2 = 0;
+            minute2 = 0;
+            timerInterval = setInterval(changeValue, 10000);
+        }
+        
+        function reset()
+        {
+            hour = 0;
+            minute = 0;
+            second = 0;
+            document.getElementById("time").innerHTML ="Time since page loaded: " + hour + " Hour(s) " + minute + " Minute(s) " + second + " Seconds";
+            
+            if(document.getElementById('Pause').style.visibility=="hidden")
+            {
+                document.getElementById('Pause').style.visibility="visible";
+                pause();
+            }
+        }
+        
+        function pause()
+        {
+            if( flagTimer=='resume')
+            {
+                document.getElementById('Pause').value="Resume";
+                flagTimer='pause';
+            }
+            else
+            {
+                flagTimer='resume';
+                document.getElementById('Pause').value="Pause";
+            }
+        }
+        
+        function color()
+        {
+            if(minute < 30 && hour < 1)
+            {
+                document.getElementById("time").style.backgroundColor = "#90EE90";
+            }
+            else if(minute < 50 && hour < 1)
+            {
+                document.getElementById("time").style.backgroundColor = "#FFA500";
+            }
+            else
+            {
+                document.getElementById("time").style.backgroundColor = "red";
+            }
+        }
+        
+        
+        function search()
+        {
+            if(flag=='continue')
+            {
+                document.getElementById('search2').value="Stop Searching";
+                flag='stop';
+                
+            }
+            else
+            {
+                flag='continue';
+                document.getElementById('search2').value="Start Searching";
+               
+            }
+            
+        }
+        
+            </script>
+        <style>
+            div.container
+            {
+                width: 100%;
+                border: 1px solid gray;
+            }
+        
+        header, footer
+        {
+            padding: 1em;
+            color: black;
+            border: 1px solid gray;
+            background-color: white;
+            clear: left;
+            text-align: center;
+        }
+        
+        nav
+        {
+            float: left;
+            max-width: 160px;
+            margin: 0;
+            padding: 1em;
+        }
+        
+        article
+        {
+            margin-left: 170px;
+            border-left: 1px solid gray;
+            padding: 1em;
+            overflow: hidden;
+        }
+        </style>
+    </head>
+    
+    <body onload="alertDate(); start(); color();">
+        
+        <div class="container">
+            
+            <header>
+                j001 Jameel Kaba jkaba 250796017
+            </header>
+            
+            <nav>
+                <form>
+                    <input type="button" value="Click for date" onclick="alertDate(); return false;"/>
+                </form>
+            </nav>
+            
+            <article>
+                <p id="date"></p>
+            </article>
+            
+            <footer>
+                <p id="time">Time since page loaded: 0 Hour(s) 0 Minute(s) 0 Seconds</p>
+                <input type="button" value="Reset Timer" onclick="reset();"/>
+                <input type="button" id="Pause" value="Pause" onclick="pause(); "/>
+                <p id="message"></p>
+                <p id="messagetwo"></p>
+            </footer>
+            
+            <footer>
+                <p id="search">Time spent searching: 0 Minute(s) 0 Seconds</p>
+                <input type="button" id = "search2" value="Start Searching" onclick="search(); pause();"/>
+                
+                
+            </footer>
+            
+        </div>
+    </body>
+</html>

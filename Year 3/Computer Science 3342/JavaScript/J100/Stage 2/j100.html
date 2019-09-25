@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var player;
+            
+            function play(){
+                player.playVideo();
+            }
+        
+            function pause(){
+                player.pauseVideo();
+            }
+            
+            function updateProgressBar(){
+                $('#progress-bar').val((player.getCurrentTime() / player.getDuration()) * 100);
+            }
+            
+            function initialize(){
+                
+                updateTimerDisplay();
+                updateProgressBar();
+                
+                clearInterval(time_update_interval);
+                
+                time_update_interval = setInterval(function () {
+                                                   updateTimerDisplay();
+                                                   updateProgressBar();
+                                                   }, 1000)
+                                                   
+            }
+        
+            $('#progress-bar').on('mouseup touchend', function (e) {
+                              
+                var newTime = player.getDuration() * (e.target.value / 100);
+                              
+                player.seekTo(newTime);
+                            
+            });
+                              
+                              
+        
+            function onYouTubeIframeAPIReady() {
+                player = new YT.Player('video-placeholder', {
+                                            width: 600,
+                                            height: 400,
+                                            videoId: 'LaSRU5m_7og',
+                                            playerVars: {
+                                                color: 'white',
+                                       
+                                            },
+                                            events: {
+                                                onReady: initialize
+                                            }
+                                       });
+            }
+        
+
+            </script>
+        <style>
+            div.container
+            {
+                width: 100%;
+                border: 1px solid gray;
+            }
+        
+        header, footer
+        {
+            padding: 1em;
+            color: black;
+            border: 1px solid gray;
+            background-color: white;
+            clear: left;
+            text-align: center;
+        }
+        
+        nav
+        {
+            float: left;
+            max-width: 160px;
+            margin: 0;
+            padding: 1em;
+        }
+        
+        article
+        {
+            margin-left: 170px;
+            border-left: 1px solid gray;
+            padding: 1em;
+            overflow: hidden;
+        }
+        </style>
+    </head>
+    
+    <body onload="play();">
+        
+        <div class="container">
+            
+            <header>
+                j100 Jameel Kaba jkaba 250796017
+            </header>
+            
+            <header>
+                <div id="video-placeholder"></div>
+                    
+                <script src="https://www.youtube.com/iframe_api"></script>
+            </header>
+            
+            
+            
+        </div>
+    </body>
+</html>

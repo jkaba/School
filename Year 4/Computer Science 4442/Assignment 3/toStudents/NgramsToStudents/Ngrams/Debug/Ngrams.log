@@ -1,0 +1,25 @@
+﻿Build started 22/03/2017 12:15:01 AM.
+     1>Project "D:\Home\Courses\Winter2017\4442\A3\toStudents\NgramsToStudents\Ngrams\Ngrams.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Ngrams.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt fileRead.cpp test.cpp
+         test.cpp
+     1>d:\home\courses\winter2017\4442\a3\tostudents\ngramstostudents\ngrams\test.cpp(61): warning C4018: '<=' : signed/unsigned mismatch
+         fileRead.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Home\Courses\Winter2017\4442\A3\toStudents\NgramsToStudents\Debug\Ngrams.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Ngrams.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Home\Courses\Winter2017\4442\A3\toStudents\NgramsToStudents\Debug\Ngrams.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Home\Courses\Winter2017\4442\A3\toStudents\NgramsToStudents\Debug\Ngrams.lib" /MACHINE:X86 Debug\fileRead.obj
+         Debug\test.obj
+     1>fileRead.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         Ngrams.vcxproj -> D:\Home\Courses\Winter2017\4442\A3\toStudents\NgramsToStudents\Debug\Ngrams.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Home\Courses\Winter2017\4442\A3\toStudents\NgramsToStudents\Debug\Ngrams.exe;#1" /manifest Debug\Ngrams.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Ngrams.unsuccessfulbuild".
+         Touching "Debug\Ngrams.lastbuildstate".
+     1>Done Building Project "D:\Home\Courses\Winter2017\4442\A3\toStudents\NgramsToStudents\Ngrams\Ngrams.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.17

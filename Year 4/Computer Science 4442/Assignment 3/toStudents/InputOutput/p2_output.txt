@@ -1,0 +1,20 @@
+INPUT:
+
+p2 p2_a.txt p2_b.txt 2 1
+
+OUTPUT:
+
+piano on
+on a
+87.5
+
+
+/////////////////////////////////////////
+
+INPUT: 
+p2 p2_a.txt p2_b.txt 3 1
+
+OUTPUT:
+
+piano on a
+93.75

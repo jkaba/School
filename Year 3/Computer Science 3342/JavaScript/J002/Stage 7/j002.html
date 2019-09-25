@@ -1,0 +1,50 @@
+<DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>J002</title>	
+	</head>
+	<body>
+		<div class="container">
+			<!-- Stage 1 -->
+			<div class="row">
+                <!-- Description for stage 1 -->
+                <h3>Exam Quiz</h3>
+				<p id="description"></p>
+				<br />
+			</div>
+            <!-- Displaying questions and answers -->
+            <div class="row">
+                <!-- Create a button, call method when clicked -->
+                <!-- Calls question method when clicked -->
+				<p>Question: </p> <p id="question"></p>
+				<button onClick="showQuestion()">Question</button>
+				
+				<br />
+                <!-- Create a button, call method when clicked -->
+                <!-- Calls answers method when clicked -->
+                <p>Answer: </p> <p id="answer"></p>
+				<button onClick="showAnswer()">Answer</button>
+			</div>
+            <!-- Displaying correct and incorrect buttons -->
+            <div class="row">
+                <!-- Correct button -->
+                <!-- Increments counter for correct questions -->
+                <!-- re-enables the user to get questions and answers -->
+                <p id="correct"></p>
+				<button onClick="incrementCorrect()" id="correct_btn">Correct</button>
+				<br />
+                <!-- Incorrect button -->
+                <!-- Increments counter for incorrect questions -->
+                <!-- re-enables the user to get questions and answers -->
+                <p id="incorrect"></p>
+				<button onClick="incrementIncorrect()" id="incorrect_btn">Incorrect</button>
+			</div>
+		</div>
+        <!-- The files where we get the questions, answers, and methods -->
+		<script src="examdatabase.js">
+		</script>
+		<script src="j002.js">
+		</script>
+	</body>
+</html>
